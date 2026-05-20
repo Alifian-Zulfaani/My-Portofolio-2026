@@ -1,0 +1,117 @@
+seo:
+  title: "Alifian Zulfaani - Full Stack Developer"
+  description: "Welcome to my portfolio! I'm Alifian Zulfaani, a full stack developer passionate about building clean, modern, and performant web experiences."
+title: "Alifian Zulfaani Full Stack Developer"
+description: "I craft modern web experiences where clean code meets beautiful design. Passionate about building performant applications that make a difference."
+hero:
+  links:
+    - label: "View My Work"
+      to: /projects
+      color: "neutral"
+  images:
+    - src: /hero/random-1.avif
+      alt: Random Image 1
+    - src: /hero/random-2.avif
+      alt: Random Image 2
+    - src: /hero/random-3.avif
+      alt: Random Image 3
+    - src: /hero/random-4.avif
+      alt: Random Image 4
+    - src: /hero/random-5.avif
+      alt: Random Image 5
+    - src: /hero/random-6.avif
+      alt: Random Image 6
+    - src: /hero/random-7.avif
+      alt: Random Image 7
+    - src: /hero/random-8.avif
+      alt: Random Image 8
+    - src: /hero/random-9.avif
+      alt: Random Image 9
+about:
+  title: "About Me"
+  description: |
+    As a full stack developer with a passion for crafting exceptional digital experiences, I blend creative design thinking with solid engineering principles.
+    My approach focuses on building scalable, maintainable applications that deliver real value from concept through deployment and beyond.
+experience:
+  title: Work Experience
+  items:
+    - position: "Frontend Developer at"
+      date: "2025 - Present"
+      company:
+        name: Esoftdream Solusi Bisnis
+        logo: "i-simple-icons-e"
+        url: "https://esoftdream.net"
+        color: "#00DC82"
+    - position: "Frontend Developer at"
+      date: "2025 - 2026"
+      company:
+        name: PT Synarch Sistem Teknologi
+        logo: "i-simple-icons-raycast"
+        url: "https://synarchdigital.com"
+        color: "#FF6363"
+    - position: "Full Stack Developer at"
+      date: "2024 - 2026"
+      company:
+        name: Semesta IT
+        logo: "i-simple-icons-linear"
+        url: "https://semesta-it.com"
+        color: "#5E6AD2"
+testimonials:
+  - quote: "Alifian's approach to development completely transformed our product. He has a rare ability to balance clean architecture with beautiful UI. The rebuild not only improved performance by 60%, but it reduced our bug reports significantly and streamlined our entire workflow."
+    author:
+      name: "Sarah Chen"
+      description: "Product Director at Bloom Finance"
+      avatar:
+        src: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80"
+        srcset: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"
+  - quote: "Working with Alifian was the best decision we made for our startup. He didn't just write code—he challenged our assumptions, thought through edge cases, and created an architecture that truly scales. His full-stack expertise meant we moved twice as fast as expected."
+    author:
+      name: "Michael Rodriguez"
+      description: "Co-founder of Wavelength Music"
+      avatar:
+        src: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80"
+        srcset: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"
+  - quote: "Alifian stands out in his ability to translate complex requirements into elegant solutions. His work on our platform wasn't just technically sound—it fundamentally improved how users interact with our data. He approaches each problem with both creativity and analytical rigor."
+    author:
+      name: "Dr. Aisha Johnson"
+      description: "Chief Innovation Officer at GreenTech Solutions"
+      avatar:
+        src: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80"
+        srcset: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"
+blog:
+  title: "Latest Articles"
+  description: "Some of my recent thoughts"
+faq:
+  title: Frequently Asked Questions
+  description: Answers to common questions about my process and services.
+  categories:
+    - title: Services & Process
+      questions:
+        - label: What services do you offer?
+          content: |
+            I specialize in full-stack web development, focusing on modern frameworks like Nuxt.js and Vue.js. This includes building responsive web applications, REST/GraphQL APIs, database design, deployment automation, and creating design systems. My goal is to deliver complete, production-ready solutions.
+        - label: What is your development process like?
+          content: |
+            My process is collaborative and iterative, typically involving Discovery & Planning, Architecture Design, Incremental Development with regular check-ins, Testing & QA, and Deployment. I tailor the process based on project needs, always focusing on clean code and maintainability.
+        - label: Do you work with startups?
+          content: |
+            Absolutely! I enjoy working with startups to help build their MVP and scale their product. I can adapt my process to fit the fast-paced startup environment while maintaining code quality.
+    - title: Pricing & Timelines
+      questions:
+        - label: How much does a project typically cost?
+          content: |
+            Project costs vary based on scope, complexity, and timeline. For comprehensive full-stack projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific tasks, my day rate is $700.
+        - label: How long does a typical project take?
+          content: |
+            Timelines depend on the project's scope and complexity. Smaller projects might take 2-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
+        - label: Do you offer ongoing support?
+          content: |
+            Yes, for clients needing ongoing development, feature additions, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
+    - title: About Me
+      questions:
+        - label: What do you enjoy most about your work?
+          content: |
+            I love the challenge of solving complex problems through elegant code. It's incredibly rewarding to see users interact with something I've built and find it genuinely useful. Building the bridge between great design and robust engineering is what excites me most.
+        - label: What are your hobbies outside of work?
+          content: |
+            When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, gaming, and staying up to date with the latest in web development. I'm also passionate about mentoring junior developers.

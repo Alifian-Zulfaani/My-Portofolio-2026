@@ -1,0 +1,38 @@
+title: About Me
+description: Learn more about my journey as a Full-Stack Developer, my coding philosophy, and my passion for building modern web applications.
+content: |
+  Hi, I'm **Alifian Zulfaani**, a Full-Stack Developer passionate about building clean, modern, and performant web experiences. I specialize in crafting applications using cutting-edge technologies like Vue.js, Nuxt.js, and Node.js.
+
+  My journey in software development started with a curiosity for how things work on the web. Over the years, I've refined my skills across the entire stack — from designing intuitive user interfaces to building robust backend systems and APIs.
+
+  ### My Development Philosophy
+
+  My philosophy is rooted in **simplicity** and **pragmatism**. I believe great software starts with understanding the problem deeply before writing a single line of code. I favor clean architecture, readable code, and solutions that are maintainable for the long term.
+
+  I strive to build applications that feel snappy and responsive, where performance and user experience go hand in hand. Whether I'm building a complex SPA or a server-rendered application, my focus is always on delivering value to the end user.
+
+  ### What Drives Me
+
+  What keeps me excited about development is the ever-evolving nature of web technology. There's always something new to learn, a better pattern to discover, or a more elegant solution to a problem. I'm driven by the satisfaction of shipping products that truly work well.
+
+  ### Beyond Code
+
+  When I'm not coding, you might find me exploring new tech, contributing to open-source, gaming, or learning about new frameworks and tools.
+
+  Thanks for visiting! Feel free to check out my [projects](/projects) or [get in touch](mailto:alifian@example.com) if you'd like to collaborate!
+skills:
+  - Vue.js
+  - Nuxt.js
+  - TypeScript
+  - Node.js
+  - TailwindCSS
+  - PostgreSQL
+  - Docker
+  - Git
+  - REST API
+  - GraphQL
+images:
+  - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    alt: My workspace setup
+  - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    alt: Exploring new places

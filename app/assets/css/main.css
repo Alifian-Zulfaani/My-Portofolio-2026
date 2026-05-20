@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@source "../../../content/**/*";
+
+/* ============================================================
+   DESIGN SYSTEM — Font & Theme
+   Menggunakan Inter (sans) + Playfair Display (serif accent)
+   Warna primary: indigo (beda dari original yang pakai blue)
+   ============================================================ */
+
+@theme static {
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
+
+:root {
+  --ui-container: var(--container-7xl);
+
+  ::selection {
+    color: #1e1b4b;
+    background-color: #c7d2fe;
+  }
+}
+
+.dark {
+  ::selection {
+    color: #e0e7ff;
+    background-color: #3730a3;
+  }
+}
+
+/* ============================================================
+   CUSTOM SCROLLBAR — Clean & minimal
+   ============================================================ */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a5b4fc;
+  border-radius: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #4338ca;
+}
