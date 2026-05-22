@@ -1,9 +1,9 @@
 title: About Me
 description: Learn more about my journey as a Full-Stack Developer, my coding philosophy, and my passion for building modern web applications.
 content: |
-  Hi, I'm **Alifian Zulfaani**, a Full-Stack Developer passionate about building clean, modern, and performant web experiences. I specialize in crafting applications using cutting-edge technologies like Vue.js, Nuxt.js, and Node.js.
+  Hi, I'm **Alifian Zulfaani**, a Full-Stack Developer passionate about building clean, modern, and performant web experiences. I specialize in crafting applications using cutting-edge technologies like Vue.js, Nuxt.js, React.js, Next.js, Laravel and Node.js.
 
-  My journey in software development started with a curiosity for how things work on the web. Over the years, I've refined my skills across the entire stack — from designing intuitive user interfaces to building robust backend systems and APIs.
+  My journey in software development started with a curiosity for how things work on the web. Over the years, I've refined my skills across the entire stack from designing intuitive user interfaces to building robust backend systems and APIs. I am a quick learner and always eager to explore new technologies and tools.
 
   ### My Development Philosophy
 
@@ -23,16 +23,21 @@ content: |
 skills:
   - Vue.js
   - Nuxt.js
+  - React.js
+  - Next.js
   - TypeScript
+  - Laravel
   - Node.js
   - TailwindCSS
+  - Bootstrap
+  - MySQL
   - PostgreSQL
-  - Docker
   - Git
   - REST API
-  - GraphQL
+  - Postman
+  - Figma
 images:
-  - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My workspace setup
-  - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: Exploring new places
+  - src: https://images.unsplash.com/photo-1618477388954-7852f32655ec?q=80&w=1470&auto=format&fit=crop
+    alt: My developer workspace setup
+  - src: https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1470&auto=format&fit=crop
+    alt: Writing clean, modern code

@@ -85,10 +85,11 @@ useSeoMeta({
                 />
                 <UButton
                   :to="global.meetingLink"
-                  label="Book a call"
-                  icon="i-lucide-calendar"
+                  label="WhatsApp"
+                  icon="i-simple-icons-whatsapp"
                   variant="outline"
                   color="neutral"
+                  target="_blank"
                   block
                 />
               </div>
