@@ -88,6 +88,18 @@ const { data: projects } = await useAsyncData('landing-projects', () =>
             <p class="mt-1 text-xs text-muted line-clamp-2">
               {{ project.description }}
             </p>
+            <div v-if="project.github" class="mt-3 flex justify-end">
+              <a
+                :href="project.github"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center gap-1.5 text-[10px] text-muted hover:text-highlighted transition-colors z-10"
+                @click.stop
+              >
+                <UIcon name="i-simple-icons-github" class="size-3.5" />
+                <span>Source Code</span>
+              </a>
+            </div>
           </div>
         </NuxtLink>
       </Motion>

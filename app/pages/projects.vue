@@ -117,12 +117,25 @@ useSeoMeta({
                 </p>
 
                 <!-- View link -->
-                <div class="mt-4 flex items-center text-sm text-primary">
-                  <span>View Project</span>
-                  <UIcon
-                    name="i-lucide-arrow-right"
-                    class="size-4 ml-1 transition-transform group-hover:translate-x-1"
-                  />
+                <div class="mt-4 flex items-center justify-between text-sm">
+                  <div class="flex items-center text-primary">
+                    <span>View Project</span>
+                    <UIcon
+                      name="i-lucide-arrow-right"
+                      class="size-4 ml-1 transition-transform group-hover:translate-x-1"
+                    />
+                  </div>
+                  <a
+                    v-if="project.github"
+                    :href="project.github"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex items-center gap-1.5 text-xs text-muted hover:text-highlighted transition-colors z-10"
+                    @click.stop
+                  >
+                    <UIcon name="i-simple-icons-github" class="size-4" />
+                    <span>Source Code</span>
+                  </a>
                 </div>
               </div>
             </NuxtLink>

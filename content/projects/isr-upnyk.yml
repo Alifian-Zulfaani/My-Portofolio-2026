@@ -1,0 +1,7 @@
+title: ISR UPNYK
+description: Website resmi UKM Interdisciplinary Scientific Research (ISR) Universitas Pembangunan Nasional Veteran Yogyakarta. Dibangun menggunakan Laravel 10 dan Tailwind CSS v3 dengan backoffice admin menggunakan Filament PHP v3. Menyediakan manajemen keanggotaan UKM, dokumentasi kegiatan, integrasi Google Drive, dan fitur interaktif komunitas.
+image: /project/isr.png
+url: https://ukm-isr.kemahasiswaan.upnyk.ac.id/
+github: https://gitlab.com/semesta.it/isr
+tags: ["Laravel 10", "Tailwind CSS v3", "Filament PHP v3", "Livewire v3"]
+date: "2024"
