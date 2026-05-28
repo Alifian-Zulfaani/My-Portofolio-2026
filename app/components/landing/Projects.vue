@@ -3,15 +3,15 @@
 // LANDING PROJECTS — Grid preview (3 terbaru, tanpa UPageSection)
 // ============================================================
 
-import type { IndexCollectionItem } from '@nuxt/content'
+import type { IndexCollectionItem } from "@nuxt/content";
 
 defineProps<{
-  page: IndexCollectionItem
-}>()
+  page: IndexCollectionItem;
+}>();
 
-const { data: projects } = await useAsyncData('landing-projects', () =>
-  queryCollection('projects').order('date', 'DESC').limit(3).all()
-)
+const { data: projects } = await useAsyncData("landing-projects", () =>
+  queryCollection("projects").order("date", "DESC").limit(3).all(),
+);
 </script>
 
 <template>
@@ -23,7 +23,9 @@ const { data: projects } = await useAsyncData('landing-projects', () =>
         :transition="{ duration: 0.5 }"
         :in-view-options="{ once: true }"
       >
-        <h2 class="text-xl font-bold tracking-tight text-highlighted sm:text-2xl">
+        <h2
+          class="text-xl font-bold tracking-tight text-highlighted sm:text-2xl"
+        >
           Featured Projects
         </h2>
         <p class="mt-1 text-sm text-muted">
@@ -57,8 +59,10 @@ const { data: projects } = await useAsyncData('landing-projects', () =>
         :transition="{ delay: 0.1 * index, duration: 0.4 }"
         :in-view-options="{ once: true }"
       >
-        <NuxtLink
-          :to="project.url"
+        <a
+          :href="project.url"
+          target="_blank"
+          rel="noopener noreferrer"
           class="group block overflow-hidden rounded-xl border border-default bg-elevated/40 transition-all duration-300 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
         >
           <!-- Image -->
@@ -67,8 +71,10 @@ const { data: projects } = await useAsyncData('landing-projects', () =>
               :src="project.image"
               :alt="project.title"
               class="size-full object-cover transition-transform duration-500 group-hover:scale-110"
-            >
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            />
           </div>
 
           <!-- Content -->
@@ -82,7 +88,9 @@ const { data: projects } = await useAsyncData('landing-projects', () =>
                 {{ tag }}
               </span>
             </div>
-            <h3 class="text-sm font-semibold text-highlighted group-hover:text-primary transition-colors">
+            <h3
+              class="text-sm font-semibold text-highlighted group-hover:text-primary transition-colors"
+            >
               {{ project.title }}
             </h3>
             <p class="mt-1 text-xs text-muted line-clamp-2">
@@ -101,7 +109,7 @@ const { data: projects } = await useAsyncData('landing-projects', () =>
               </a>
             </div>
           </div>
-        </NuxtLink>
+        </a>
       </Motion>
     </div>
   </div>
