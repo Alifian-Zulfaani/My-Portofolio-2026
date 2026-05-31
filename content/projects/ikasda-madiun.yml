@@ -1,6 +1,6 @@
 title: IKASDA Madiun
 description: Website portal resmi Ikatan Alumni SMA Negeri 2 Madiun. Dibangun menggunakan Laravel 10 dan Tailwind CSS v3 dengan backoffice admin menggunakan Filament PHP v3. Menyediakan manajemen keanggotaan alumni, dokumentasi kegiatan, integrasi Google Drive, dan fitur interaktif komunitas.
-image: /project/ikasda.png
+image: /project/ikasda.webp
 url: https://ikasda-madiun.com/
 github: https://gitlab.com/semesta.it/ikasda
 tags: ["Laravel 10", "Tailwind CSS v3", "Filament PHP v3", "Livewire v3"]

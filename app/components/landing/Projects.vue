@@ -12,6 +12,12 @@ defineProps<{
 const { data: projects } = await useAsyncData("landing-projects", () =>
   queryCollection("projects").order("date", "DESC").limit(3).all(),
 );
+
+const openProject = (url: string | undefined) => {
+  if (url && import.meta.client) {
+    window.open(url, '_blank');
+  }
+};
 </script>
 
 <template>
@@ -53,23 +59,24 @@ const { data: projects } = await useAsyncData("landing-projects", () =>
     <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
       <Motion
         v-for="(project, index) in projects"
-        :key="project.title"
+        :key="`${project.title}-${$route.path}`"
         :initial="{ opacity: 0, transform: 'translateY(20px)' }"
         :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
         :transition="{ delay: 0.1 * index, duration: 0.4 }"
         :in-view-options="{ once: true }"
       >
-        <a
-          :href="project.url"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="group block overflow-hidden rounded-xl border border-default bg-elevated/40 transition-all duration-300 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
+        <div
+          class="group relative block overflow-hidden rounded-xl border border-default bg-elevated/40 transition-all duration-300 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 cursor-pointer"
+          @click="openProject(project.url)"
         >
           <!-- Image -->
           <div class="relative overflow-hidden aspect-video">
             <img
               :src="project.image"
               :alt="project.title"
+              width="600"
+              height="338"
+              loading="lazy"
               class="size-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
             <div
@@ -109,7 +116,7 @@ const { data: projects } = await useAsyncData("landing-projects", () =>
               </a>
             </div>
           </div>
-        </a>
+        </div>
       </Motion>
     </div>
   </div>

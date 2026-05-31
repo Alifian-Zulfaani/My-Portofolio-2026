@@ -160,8 +160,11 @@ useSeoMeta({
                   <img
                     :src="image.src"
                     :alt="image.alt"
+                    width="600"
+                    height="450"
+                    loading="lazy"
                     class="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  >
+                  />
                   <p class="px-3 py-2 text-xs text-muted text-center">
                     {{ image.alt }}
                   </p>

@@ -18,8 +18,7 @@ useHead({
     { key: "theme-color", name: "theme-color", content: color },
   ],
   link: [
-    { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-    { rel: "icon", type: "image/png", href: "/favicon.png" }
+    { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
   ],
   htmlAttrs: {
     lang: "en",

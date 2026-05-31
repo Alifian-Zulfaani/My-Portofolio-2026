@@ -118,8 +118,12 @@ defineProps<{
               <img
                 :src="global.picture?.light"
                 :alt="global.picture?.alt"
+                width="288"
+                height="288"
+                loading="eager"
+                fetchpriority="high"
                 class="relative size-52 sm:size-64 lg:size-72 rounded-3xl object-cover shadow-2xl ring-2 ring-default/50 ring-offset-4 ring-offset-bg"
-              >
+              />
             </div>
           </Motion>
         </div>
@@ -136,11 +140,12 @@ defineProps<{
         pause-on-hover
         class="py-4 [--duration:40s] border-y border-default/50"
       >
-        <NuxtImg
+        <img
           v-for="(img, index) in page.hero.images"
           :key="index"
           width="180"
           height="180"
+          loading="lazy"
           class="rounded-lg aspect-square object-cover mx-1.5"
           :class="index % 2 === 0 ? '-rotate-1' : 'rotate-1'"
           v-bind="img"

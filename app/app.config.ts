@@ -10,8 +10,8 @@ export default defineAppConfig({
     name: 'Alifian Zulfaani',
     role: 'Full Stack Developer',
     picture: {
-      dark: '/photo/alif2.png',
-      light: '/photo/alif2.png',
+      dark: '/photo/alif2.webp',
+      light: '/photo/alif2.webp',
       alt: 'Alifian Zulfaani'
     },
     meetingLink: 'https://wa.me/6285740636055',

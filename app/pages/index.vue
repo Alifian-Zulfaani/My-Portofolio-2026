@@ -26,7 +26,7 @@ useSeoMeta({
 
 <template>
   <UPage v-if="page">
-    <!-- Hero -->
+    <!-- Hero (above fold — eager load) -->
     <LandingHero :page />
 
     <!-- About + Experience: side-by-side -->

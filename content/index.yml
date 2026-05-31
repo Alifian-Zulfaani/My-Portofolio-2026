@@ -9,23 +9,23 @@ hero:
       to: /projects
       color: "neutral"
   images:
-    - src: /hero/random-1.avif
+    - src: /hero/random-1.webp
       alt: Random Image 1
-    - src: /hero/random-2.avif
+    - src: /hero/random-2.webp
       alt: Random Image 2
-    - src: /hero/random-3.avif
+    - src: /hero/random-3.webp
       alt: Random Image 3
-    - src: /hero/random-4.avif
+    - src: /hero/random-4.webp
       alt: Random Image 4
-    - src: /hero/random-5.avif
+    - src: /hero/random-5.webp
       alt: Random Image 5
-    - src: /hero/random-6.avif
+    - src: /hero/random-6.webp
       alt: Random Image 6
-    - src: /hero/random-7.avif
+    - src: /hero/random-7.webp
       alt: Random Image 7
-    - src: /hero/random-8.avif
+    - src: /hero/random-8.webp
       alt: Random Image 8
-    - src: /hero/random-9.avif
+    - src: /hero/random-9.webp
       alt: Random Image 9
 about:
   title: "About Me"

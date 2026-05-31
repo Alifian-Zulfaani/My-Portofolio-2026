@@ -1,6 +1,6 @@
 title: MindLog AI
 description: Jurnal harian interaktif berbasis kecerdasan buatan (AI) untuk mencatat aktivitas harian, menganalisis mood secara otomatis menggunakan model Google Gemini, visualisasi statistik mingguan, serta autentikasi aman tanpa kata sandi dengan Supabase Magic Link.
-image: /project/mindlogai.png
+image: /project/mindlogai.webp
 url: https://mind-log-ai.vercel.app/
 github: https://github.com/Alifian-Zulfaani/MindLog-AI
 tags:
