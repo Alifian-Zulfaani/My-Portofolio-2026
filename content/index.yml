@@ -83,35 +83,35 @@ blog:
   description: "Some of my recent thoughts"
 faq:
   title: Frequently Asked Questions
-  description: Answers to common questions about my process and services.
+  description: Answers to common questions about my background, tech stack, and collaboration.
   categories:
-    - title: Services & Process
+    - title: Expertise & Workflow
       questions:
-        - label: What services do you offer?
+        - label: What is your primary tech stack?
           content: |
-            I specialize in full-stack web development, focusing on modern frameworks like Nuxt.js and Vue.js. This includes building responsive web applications, REST/GraphQL APIs, database design, deployment automation, and creating design systems. My goal is to deliver complete, production-ready solutions.
-        - label: What is your development process like?
+            I specialize in Full-Stack Web Development, with a strong focus on modern frontend frameworks like Vue.js and Nuxt.js, as well as React.js and Next.js. On the backend, I am experienced with Laravel, Node.js, building REST APIs, and working with databases like MySQL and PostgreSQL.
+        - label: How do you approach project development and code quality?
           content: |
-            My process is collaborative and iterative, typically involving Discovery & Planning, Architecture Design, Incremental Development with regular check-ins, Testing & QA, and Deployment. I tailor the process based on project needs, always focusing on clean code and maintainability.
-        - label: Do you work with startups?
+            I value clean code, simplicity, and maintainability. My approach focuses on understanding the problem deeply, design patterns, clean architecture, and building performant applications that feel snappy and responsive for the end user.
+        - label: Are you comfortable working with remote teams?
           content: |
-            Absolutely! I enjoy working with startups to help build their MVP and scale their product. I can adapt my process to fit the fast-paced startup environment while maintaining code quality.
-    - title: Pricing & Timelines
+            Absolutely. I have experience working with distributed teams and utilizing tools like Git, Postman, Figma, and modern communication platforms to maintain clear, efficient workflows and collaborate successfully.
+    - title: Collaboration & Opportunities
       questions:
-        - label: How much does a project typically cost?
+        - label: Are you open to full-time employment or roles?
           content: |
-            Project costs vary based on scope, complexity, and timeline. For comprehensive full-stack projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific tasks, my day rate is $700.
-        - label: How long does a typical project take?
+            Yes! I am open to full-time positions, remote roles, or collaborations that match my skills. I am always looking for opportunities where I can contribute to building great products and grow alongside a talented team.
+        - label: What kinds of projects are you most interested in?
           content: |
-            Timelines depend on the project's scope and complexity. Smaller projects might take 2-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
-        - label: Do you offer ongoing support?
+            I enjoy working on products that solve real-world problems with elegant solutions. I am particularly interested in projects focusing on clean architecture, modern web standards, and scaling applications to deliver the best user experience.
+        - label: How can we get in touch or discuss opportunities?
           content: |
-            Yes, for clients needing ongoing development, feature additions, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
-    - title: About Me
+            You can reach out to me directly via the contact form/details on this website, or email me directly. I am always happy to connect, share ideas, and discuss how I can add value to your team.
+    - title: Personal & Hobbies
       questions:
-        - label: What do you enjoy most about your work?
+        - label: What drives your passion for software development?
           content: |
-            I love the challenge of solving complex problems through elegant code. It's incredibly rewarding to see users interact with something I've built and find it genuinely useful. Building the bridge between great design and robust engineering is what excites me most.
-        - label: What are your hobbies outside of work?
+            I love the challenge of turning complex requirements into simple, beautiful, and functional applications. Seeing how users interact with something I built and finding it genuinely useful is the most rewarding part of my work.
+        - label: What do you enjoy doing outside of coding?
           content: |
-            When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, gaming, and staying up to date with the latest in web development. I'm also passionate about mentoring junior developers.
+            When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, gaming, and staying up to date with the latest in web development. I'm also passionate about mentoring junior developers and sharing knowledge.
